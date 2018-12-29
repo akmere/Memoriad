@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".SecondActivity.CNumbersFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/ohtext"
+        android:text="click Start to begin\ncountdown and memorise digits!"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Start!"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:id="@+id/startButton"
+        android:layout_below="@+id/ohtext"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/additionalText"
+        android:layout_marginTop="30dp"
+        android:textColor="#ff0000"
+        android:gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startButton"
+
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:id="@+id/backButton"
+        android:text="Back"
+        android:width="250dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Results"
+        android:layout_below="@+id/backButton"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:id="@+id/resultButton"/>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FirstActivity.DefaultChooseFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="180dp"
+        android:text="Choose custum number of digits"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/customNumber"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/confirmButton"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/backButton2"/>
+
+</LinearLayout>
+</FrameLayout>
